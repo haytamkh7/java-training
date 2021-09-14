@@ -8,6 +8,10 @@ public class BankAccountApp {
 		acc1.makeDeposit(10000);
 		acc1.accrue();
 		System.out.println(acc1.toString());
+		
+		BankAccount acc2 = new BankAccount("2839101", 6000);
+		acc2.setName("Albert");
+		System.out.println(acc2.toString());
 	}
 }
 
